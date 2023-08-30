@@ -16,7 +16,7 @@ struct VMContent: Codable {
     var hardwareModelData: Data?
     var machineIdentifierData: Data?
     
-    var cpuCount: Int = 2
+    var cpuCount: Int = 10
     var memorySize: UInt64 = 4 * 1024 * 1024 * 1024
-    var diskSize: UInt64 = 32
+    var diskSize: UInt64 = 100
 }

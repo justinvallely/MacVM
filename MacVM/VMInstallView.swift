@@ -16,10 +16,10 @@ struct VMInstallView: View {
     @Environment(\.undoManager) var undoManager
     @ObservedObject var state: VMInstallationState
         
-    @State var cpuCount: Int = 2
-    @State var memorySize: Int = 2
-    @State var diskSize: String = "32"
-    
+    @State var cpuCount: Int = 10
+    @State var memorySize: Int = 16
+    @State var diskSize: String = "100"
+
     @State var presentFileSelector = false
     @State var skipInstallation = false
     @State var ipswURL: URL?
